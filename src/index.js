@@ -1,4 +1,6 @@
 import "./style.css";
+import appController from "./modules/appController";
+import uiController from "./modules/uiController";
 
-const body = document.querySelector("body");
-body.innerHTML = "<h1>Hello Webpack 🌐</h1>";
+uiController(appController).renderProjects();
+

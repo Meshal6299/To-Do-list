@@ -1,1 +1,66 @@
-
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0D1B2A;
+  color: #fff;
+}
+.topbar{
+  background-color: #1B263B;
+  padding: 10px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar{
+  border-radius: 8px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  height: calc(100vh - 92px);
+}
+.line{
+  border-bottom: 1px solid #ffffff23;
+  width: 80%;
+}
+button{
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.397);
+  height: 25px;
+  color: white;
+  font-size: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover{
+  background-color: rgba(255, 255, 255, 0.397);
+  color: #000;
+  cursor: pointer;
+}
+.todos{
+  border-radius: 8px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: calc(100vh - 92px);
+}
+.selected{
+  background-color: #415A77;
+}
+button i{
+  font-style: normal;
+  font-size: 16px;
+  margin-left: 5px;
+}

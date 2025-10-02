@@ -38,6 +38,6 @@ module.exports = {
   devServer: {
     static: "./dist",
     open: true,
-    hot: true,
+    watchFiles: ["./public/*.html"],
   },
 };
